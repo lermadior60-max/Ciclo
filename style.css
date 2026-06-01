@@ -1,0 +1,180 @@
+body{
+  background-image: url('6f136587a12ab6be7fcb9d9300e9f319.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1{
+  color: forestgreen;
+  text-align: center;
+  font-weight: 999;
+  background-position: column;
+  width: 350px;
+  height: 40px;
+  border-radius: 5%;
+}
+p{
+  color: cyan;
+  font-weight: 777;
+}
+.imagen-general{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+h2{
+  color:  cornsilk;
+}
+ol{
+  color: antiquewhite;
+  font-weight: 999;
+}
+.boton-contacto{
+    position: fixed; /* Lo deja fijo en la pantalla */
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    bottom: 30px;    /* Distancia desde abajo */
+    right: 30px;     /* Distancia desde la derecha */
+    background-color:  blueviolet; /* El verde oficial de WhatsApp */
+    color: aliceblue;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.9); /* Sombra para que resalte */
+    z-index: 1000;   /* Asegura que siempre esté por encima de todo */
+    transition: transform 0.3s;pp
+  
+  
+  
+}
+boton-contacto{
+    transform: scale(1.1); /* Efecto de crecimiento al pasar el mouse */
+    background-color: blueviolet;
+
+}
+text{
+  color: white;
+  font-weight: 900;
+}
+a1 img{
+  width: 200px;
+  height: 220px;
+  color: aliceblue;
+}
+strong{
+  color: black;
+}
+
+
+
+button{
+  background-color: darkgreen;
+  width: 100px;
+  color: white;
+  font-weight: 999;
+  
+  
+}
+.imagen-1{
+  width: 320px;
+  height: 150px;
+  border-radius: 10%;
+  position: relative
+}
+.tarjeta-producto {
+  width: 100px;
+  background-color: darkgreen; /* Fondo oscuro sutil */
+  border-radius: 15px;      /* Bordes redondeados */
+  overflow: hidden;         /* Para que la imagen no se salga de las esquinas */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidad */
+  transition: transform 0.3s ease; /* Efecto al pasar el mouse */
+  border: 1px solid #333;
+  margin: 15px;
+  background-size: cover;
+    /* Mantén tus valores de ancho y alto actuales */
+    overflow: hidden;     /* Corta cualquier cosa que intente salirse */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribuye el contenido arriba y el botón abajo */
+}
+
+}
+
+/* Efecto Hover: La tarjeta se levanta un poco */
+.tarjeta-producto:hover {
+  transform: translateY(-10px);
+  border-color: #a4ff00; /* Resalta el borde en verde */
+}
+
+.tarjeta-header img {
+  width: 100px;
+  height: 200px;
+  object-fit: cover; /* Ajusta la imagen sin deformarla */
+}
+
+.tarjeta-body {
+  padding: 10px;
+  color: lightgray;
+    padding: 10px;
+    font-size: 3px;      /* Texto más pequeño para que quepa todo */
+}
+
+
+
+.tarjeta-body ul {
+    padding-left: 15px;   /* Reduce el espacio de los puntos de la lista */
+    margin: 5px 0;
+  color: black;
+  font-weight: 999;
+}
+
+.titulo-producto {
+    font-size: 4px;      /* Título más compacto */
+    line-height: 0.2;
+}
+
+
+.tarjeta-body {
+  padding: 1ppx;
+  color:  black;
+}
+
+  .contenedor-video {
+    width: 95%;
+    max-width: 600px;         /* Ancho máximo para que no se vea gigante en PC */
+    
+    border-radius: 15px;      /* Bordes redondeados premium */
+    overflow: hidden;         /* Corta las esquinas del video para que queden redondas */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); /* Sombra elegante */
+}
+
+/* El elemento de video real */
+.mi-video {
+    width: 100%;              /* Se adapta al ancho del contenedor */
+    height: 200px;             /* Ajusta la altura proporcionalmente */
+    display: block;
+    object-fit: cover;  
+} 
+
+.galeria {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.imagenes-subidas img {
+  width: 300px;
+  margin: 10px;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.comentario {
+  background: #f2f2f2;
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
